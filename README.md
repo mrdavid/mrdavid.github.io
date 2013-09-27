@@ -1,4 +1,5 @@
-mrdavid.github.io
-=================
+# Github Pages for mrdavid / David M. Roehrscheid / davidr.co
 
-mrdavid user page
+Used OSS Software:
+
+[HTML5 Boilerplate](http://html5boilerplate.com)
