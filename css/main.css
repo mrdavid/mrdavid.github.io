@@ -185,6 +185,7 @@ ul.external-links{
     img.always{
         display: block;
         margin-bottom: 5px;
+        width: 240px;
     }
     
     .container{
