@@ -178,11 +178,15 @@ ul.external-links{
 }
 
 @media (max-width: 1024px){
+    html{
+        font-size: 0.8em;
+    }
+    
     .illustration{
         display: none;
     }
     
-    img.always{
+    img.mobile{
         display: block;
         margin-bottom: 5px;
         width: 240px;
