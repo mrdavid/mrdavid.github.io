@@ -2,7 +2,12 @@
 
 
 <books>
-
+<book>
+  <author>Cormac McCarthy</author>
+  <title>The Road</title>
+  <finnished>2013.10.12</finnished>
+  <tag>Fiction</tag>
+ </book>
 <book>
   <author>Fyodor Dostoyevsky</author>
   <title>Der Idiot</title>
