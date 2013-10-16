@@ -1,0 +1,224 @@
+    <!DOCTYPE html charset=UTF-8>
+    <html>
+    <head>
+        <title>Reading</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+       <div class="container">
+        <div class="row">
+            <div class="span12">
+                <p><a href="index.html">&lt; Back</a></p>
+                <p>I started this log on October 30th, 2012. I list all books I read. 'Other material' contains longer or scientific articles, but not everything else I read. </p>
+                <p>Some entries have links or notes. You can <a id="ShowNotesLinks" href="#">make them visible here</a>.</p>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <a href="#" class="buttonBall" />All</a><br />
+                By Topic: 
+                <div id="taglinks_here">
+                    <!--
+                    <a href="#" class="buttonB tag_china" />China</a> &middot; <a href="#" class="buttonB tag_japan" />Japan</a>
+                    &middot; <a href="#" class="buttonB tag_field_theory">(Quantum) Field Theory</a>
+                -->
+                </div>
+            </div>
+
+            <div class="span7">
+                <h1>Books</h1>
+
+                <!-- Books -->
+                <div id="books_here"></div>
+                <!-- End Books -->
+                </div>
+                <div class="span5">
+                    <h1>Other material</h1>
+                    <div id="material_here"></div>
+                </div>
+
+            </div> <!-- / row --> 
+            <hr />
+            <p>
+                <small>If you're interested in buying any of these books through Amazon Germany and don't mind if I get some of that money, you can use the links on this site: <a href="#" class="buttonShowAmazonLinks">Show Amazon.de links</a>. 
+                </small>
+            </p>
+        </div> <!-- / container -->
+
+        <script>
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.open("GET","reading.xml",false);
+        xmlhttp.send();
+        xmlDoc=xmlhttp.responseXML; 
+
+        books = xmlDoc.getElementsByTagName("book");
+        others = xmlDoc.getElementsByTagName("other");
+        tags = [];
+
+        /*
+         <book review="true">
+        <author>Paul Teller</author>
+        <title>An Interpretive Introduction to Quantum Field Theory</title>
+        <bought>2012.02.10</bought>
+        <started></started>
+        <finnished>2012.09.14</finnished>
+        <tag>Quantum Field Theory</tag>
+        <amazon></amazon>
+        <link></link>
+        </book>
+
+        Books:
+        Title must be present
+        if attribute review is true, write "Review" instead of "Notes" on the notes-button label
+
+        Other material:
+
+    */
+    function addMiddot(shouldI){
+        if(shouldI){
+            return ' &middot; ';
+        }
+        else{
+            return '';
+        }
+    }
+
+    function tagify(sometag){
+        return sometag.split(' ').join('_');
+    }
+
+    function displayBook(elementone){
+        // Generate the HTML block to display a book entry and return it as a string.
+        //author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+        author = elementone.getElementsByTagName("author");
+        title = elementone.getElementsByTagName("title");
+        txt = '';
+
+        if ( author.length > 0 && title.length > 0){
+            bought = elementone.getElementsByTagName("bought");
+            finnished = elementone.getElementsByTagName("finnished");
+            started = elementone.getElementsByTagName("started");
+            amazonLink = elementone.getElementsByTagName("amazon");
+            link = elementone.getElementsByTagName("link");
+            notes = elementone.getElementsByTagName("notes");
+            taggen = elementone.getElementsByTagName("tag");
+            tag_list = '';
+            for (var i = taggen.length - 1; i >= 0; i--) {
+                tags.push(taggen[i].childNodes[0].nodeValue);
+                    tag_list += tagify(taggen[i].childNodes[0].nodeValue) + ' ';
+            };
+
+            txt += '<p class="material ' + tag_list + '"><b>' + author[0].childNodes[0].nodeValue + ', <i>' + title[0].childNodes[0].nodeValue + '</i></b><br />';
+            dotMarker = false;
+            if ( bought.length > 0){
+                txt += 'Bought: ' + bought[0].childNodes[0].nodeValue;
+                dotMarker = true;
+            }
+            if( started.length > 0){
+                txt += addMiddot(dotMarker);
+                txt += 'Started: ' + started[0].childNodes[0].nodeValue;
+                dotMarker = true;
+            }
+            if ( finnished.length > 0){
+                txt += addMiddot(dotMarker);
+                txt += 'Finished: ' + finnished[0].childNodes[0].nodeValue;
+                dotMarker = true;
+            }
+            if(dotMarker){ txt += '<br />'; }
+
+            if ( link.length > 0){
+                txt += '<a href="' + link[0].childNodes[0].nodeValue +'" class="btn btn-info btn-mini hide noteslinks">Link</a>';
+            }
+            if ( notes.length > 0){
+                txt += '<a href="' + notes[0].childNodes[0].nodeValue +'" class="btn btn-info btn-mini hide noteslinks">Notes</a>';
+            }
+            if ( amazonLink.length > 0){
+                txt += '<a href="'+ amazonLink[0].childNodes[0].nodeValue +'" class="btn btn-warning btn-mini hide amazonLink">On Amazon.de</a>';
+            }
+            txt += "</p>";
+        };
+        //started = 'Started: ' + books[i].getElementsByTagName("started")[0].childNodes[0].nodeValue;
+        //finnished = 'Finnished: ' + books[i].getElementsByTagName("finnished")[0].childNodes[0].nodeValue;
+        //txt =  '<p class="material' + tag_list + '"><b>' + author + ', <i>' + title + '</i></b><br />Bought: 2012.02.10 &middot; Started: ? &middot; Finnished: 2012.09.14<br /><a href="reading/interpretiv_introduction_qft.html" class="btn btn-info btn-mini">Notes</a><a href="'+ amazon_link +'" class="btn btn-warning btn-mini hide amazonLink">On Amazon.de</a></p>';
+        return txt;
+    };
+
+    function displayOhter(i){
+        // Generate the HTML block to display an entry that's not a book and return it as a string.
+        // pass
+        return '';
+    }
+
+    function generateTagLinks(taglist){
+        // From a list of all tags generate an alphabetically ordered list of links and return the HTML as a string.
+        // pass
+    }
+
+    $(document).ready(function(){
+        function unbold_all_tags(){
+                // pass
+            }
+            function show_all(){
+                $("p.material").slideDown("fast");
+            };
+            function hide_all(){
+                $("p.material").slideUp("fast");
+            };
+            function show_hide_tags(elementone){
+                hide_all();
+                $("p." + elementone).slideDown("fast");
+            //elementone.slideUp("fast");
+        };
+        /* ----------------------- */
+            // Insert XML data
+            taglist = '';
+            txtbooks = '';
+            txtothers = '';
+            for (var i = 0; i < books.length; i++) {
+                txtbooks += displayBook(books[i]);
+            };
+            for (var i = 0; i < others.length; i++) {
+                txtothers += displayBook(others[i]);
+            };
+            document.getElementById("books_here").innerHTML=txtbooks;
+            document.getElementById("material_here").innerHTML=txtothers;
+            books = null;
+            others = null;
+
+            // Remove Duplicates
+            uniqueNames = [];
+            $.each(tags, function(i, el){
+            if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
+            });
+
+            tags = uniqueNames;
+            tags.sort();
+            tag_links = '';
+            for (var i = 0; i < tags.length; i++) {
+                tag_links += '<a href="#" class="buttonB ' + tagify(tags[i]) + '" />' + tags[i] + '</a>';
+                if (i != (tags.length - 1)) { tag_links += " &middot; "}
+            };
+            document.getElementById("taglinks_here").innerHTML=tag_links;
+
+            /* ----------------------- */
+            // Event Handlers
+            $("a.buttonShowAmazonLinks").click(function() { $("a.amazonLink").fadeIn(); });
+            $("#ShowNotesLinks").click(function() { $("a.noteslinks").fadeIn(); });
+            $("a.buttonBall").click(function(){ show_all(); });
+            $("a.buttonB").click(function(){ show_hide_tags($(this).attr('class').split(/\s+/)[1]); });
+        });
+    </script>
+
+</body>
+</html>
