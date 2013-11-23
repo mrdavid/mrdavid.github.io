@@ -5,10 +5,6 @@
 
     David M. Roehrscheid -- Author -- @daviddavid
 
-# THANKS
-
-    <name>
-
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
