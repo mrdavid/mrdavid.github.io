@@ -3,6 +3,12 @@
 
 <books>
 <book>
+  <author>Eileen Chang</author>
+  <title>Lust, Caution</title>
+  <tag>Fiction</tag>
+  <started>2013.12.01</started>
+ </book>
+<book>
   <author>Cormac McCarthy</author>
   <title>The Road</title>
   <finnished>2013.10.12</finnished>
