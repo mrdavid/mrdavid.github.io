@@ -4,6 +4,13 @@
 <books>
 <book>
   <author>Harry G. Frankfurt</author>
+  <title>On Truth</title>
+  <tag>Philosophy</tag>
+  <started>2013.12.30</started>
+  <finnished>2013.12.30</finnished>
+ </book>
+<book>
+  <author>Harry G. Frankfurt</author>
   <title>On Bullshit</title>
   <tag>Philosophy</tag>
   <started>2013.12.28</started>
