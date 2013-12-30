@@ -3,9 +3,15 @@
 
 <books>
 <book>
+  <author>Harry G. Frankfurt</author>
+  <title>On Bullshit</title>
+  <tag>Philosophy</tag>
+  <started>2013.12.28</started>
+  <finnished>2013.12.28</finnished>
+ </book>
+<book>
   <author>Eileen Chang</author>
   <title>Lust, Caution</title>
-  <tag>Fiction</tag>
   <started>2013.12.01</started>
   <finnished>2013.12.06</finnished>
   <tag>China</tag>
