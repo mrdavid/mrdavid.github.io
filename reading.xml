@@ -3,6 +3,13 @@
 
 <books>
 <book>
+  <author>Marc Aurel/Anton Cechov</author>
+  <title>Wie soll man leben?</title>
+  <tag>Philosophy</tag>
+  <started>2013.12.31</started>
+  <finnished>2013.12.31</finnished>
+ </book>
+<book>
   <author>Harry G. Frankfurt</author>
   <title>On Truth</title>
   <tag>Philosophy</tag>
@@ -227,6 +234,12 @@
 </book>
 
 <!-- Other material -->
+<other>
+  <author>Villa Ranta</author>
+  <title>Paradies</title>
+  <finnished>2013.12.31</finnished>
+  <tag>Comic</tag>
+ </other>
 <other>
   <author>Heinrich von Kleist</author>
   <title>Über die allmähliche Verfertigung der Gedanken beim Reden</title>
