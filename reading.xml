@@ -3,6 +3,14 @@
 
 <books>
 <book>
+  <author>Jacques Hadamard</author>
+  <title>The Mathematician's Mind</title>
+  <tag>Mathematics</tag>
+  <started>2014.01.01</started>
+  <finnished>2014.01.04</finnished>
+      <notes>reading/hadamard_math.html</notes>
+ </book>
+<book>
   <author>Marc Aurel/Anton Cechov</author>
   <title>Wie soll man leben?</title>
   <tag>Philosophy</tag>
