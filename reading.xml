@@ -3,6 +3,13 @@
 
 <books>
 <book>
+  <author>Erich K&amp;auml;stner</author>
+  <title>Fabian - Die Geschichte eines Moralisten</title>
+  <tag>Fiction</tag>
+  <started>2014.01.04</started>
+  <finnished>2014.01.17</finnished>
+ </book>
+<book>
   <author>Jacques Hadamard</author>
   <title>The Mathematician's Mind</title>
   <tag>Mathematics</tag>
