@@ -3,6 +3,12 @@
 
 <books>
 <book>
+  <author>Benoit Mandelbrot</author>
+  <title>The (mis)behaviour of markets</title>
+  <tag>Economics</tag>
+  <started>2014.02.14</started>
+  <finnished>2014.02.24</finnished>
+ </book>
   <author>Erich K&amp;auml;stner</author>
   <title>Fabian - Die Geschichte eines Moralisten</title>
   <tag>Fiction</tag>
