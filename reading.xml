@@ -3,6 +3,13 @@
 
 <books>
 <book>
+  <author>Burton G. Malkiel</author>
+  <title>A random walk down Wall Street</title>
+  <tag>Economics</tag>
+  <started>2014.02.25</started>
+  <finnished>2014.03.21</finnished>
+ </book>
+<book>
   <author>Benoit Mandelbrot</author>
   <title>The (mis)behaviour of markets</title>
   <tag>Economics</tag>
