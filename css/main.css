@@ -165,6 +165,14 @@ ul.external-links{
         padding:0;
     }
     
+    .col-center-right{
+        float: left;
+        width: 737px;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    
     .container{
         margin-top: 20px;
         width: 1024px;
