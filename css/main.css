@@ -149,7 +149,7 @@ ul.external-links{
 }
 
 @media (min-width: 1024px) {
-    .col-left, .col-right{
+    .col-left, .col-right, .col-center, .col-center-right{
         float: left;
         width: 287px;
         margin: 0;
@@ -157,20 +157,16 @@ ul.external-links{
         padding:0;
     }
     
+    .col-right {
+        float: right;
+    }
+    
     .col-center{
-        float: left;
         width: 450px;
-        margin: 0;
-        border: 0;
-        padding:0;
     }
     
     .col-center-right{
-        float: left;
         width: 737px;
-        margin: 0;
-        border: 0;
-        padding: 0;
     }
     
     .container{
