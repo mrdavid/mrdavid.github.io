@@ -143,9 +143,26 @@ a:visited{
   width: 400px;
 }
 
+.block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.imagecapture {
+    text-align: center;
+}
+
 ul.external-links{
     list-style-type: none;
     margin-top: 0px;
+}
+
+table.flow {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fdbe45;
+    border-radius: 10px;
 }
 
 @media (min-width: 1024px) {
@@ -165,7 +182,7 @@ ul.external-links{
         width: 450px;
     }
     
-    .col-center-right{
+    .col-center-left{
         width: 737px;
     }
     
@@ -180,6 +197,10 @@ ul.external-links{
       display: table;
       clear: both;
     }
+    
+    .pc-hidden {
+        display:none;
+    }
 }
 
 @media (max-width: 1024px){
@@ -193,6 +214,10 @@ ul.external-links{
         display: none;
     }
     
+    block {
+        display: none;
+    }
+    
     img.mobile{
         display: block;
         margin-bottom: 5px;
@@ -201,6 +226,10 @@ ul.external-links{
     
     .container{
         margin: 10px;
+    }
+    
+    .mobile-hidden {
+        display: none;
     }
 }
 
