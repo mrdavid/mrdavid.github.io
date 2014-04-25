@@ -3,6 +3,12 @@
 
 <books>
 <book>
+  <author>Edward Hollis</author>
+  <title>Eine kurze Geschichte des Abendlandes in 12 Bauwerken</title>
+  <tag>History</tag>
+  <finnished>2014.04.25</finnished>
+ </book>
+<book>
   <author>Burton G. Malkiel</author>
   <title>A random walk down Wall Street</title>
   <tag>Economics</tag>
