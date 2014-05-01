@@ -12,22 +12,19 @@
         <div class="row">
             <div class="span12">
                 <p><a href="index.html">&lt; Back</a></p>
-                <p>I started this log on October 30th, 2012. I list all books I read. 'Other material' contains scientific articles, comics and other material of note, but not everything else I read. I try to read most blog posts and articles on the net through the pocket app. Here's <a href="http://dl.dropboxusercontent.com/u/1297172/sync/pocket/index.html">a graph of the number of articles I read each day</a>.</p>
+                <p>I started this log on October 30th, 2012. I list all books I read.<br>I try to list scientific articles, comics and other material of note under 'other material', but the list is horribly incomplete. I recorded most blog posts and articles on the net through the pocket app for a while. Here's <a href="http://dl.dropboxusercontent.com/u/1297172/sync/pocket/index.html">a graph of the number of articles I read each day</a> in that period.</p>
                 <p>Some entries have links or notes. You can <a id="ShowNotesLinks" href="#">make them visible here</a>.</p>
                 <hr />
             </div>
         </div>
         <div class="row">
+        <!--
             <div class="span12">
                 <a href="#" class="buttonBall" />All</a><br />
                 By Topic: 
                 <div id="taglinks_here">
-                    <!--
-                    <a href="#" class="buttonB tag_china" />China</a> &middot; <a href="#" class="buttonB tag_japan" />Japan</a>
-                    &middot; <a href="#" class="buttonB tag_field_theory">(Quantum) Field Theory</a>
-                -->
                 </div>
-            </div>
+            </div> -->
 
             <div class="span7">
                 <h1>Books</h1>
@@ -37,8 +34,27 @@
                 <!-- End Books -->
             </div>
             <div class="span5">
-                    <h1>Other material</h1>
-                    <div id="material_here"></div>
+               
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tags" data-toggle="tab" class="active">Tags</a></li>
+                    <li><a href="#stat" data-toggle="tab">Statistics</a></li>
+                    <li><a href="#othe" data-toggle="tab">Other material</a></li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tags">
+                        <a href="#" class="buttonBall" />All</a><br />
+                        By Topic: 
+                        <div id="taglinks_here">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="stat">
+                        <div id="statistics_here"></div>  
+                    </div>
+                    <div class="tab-pane" id="othe">
+                        <div id="material_here"></div>
+                    </div>
+                </div>
             </div>
 
             </div> <!-- / row --> 
@@ -98,7 +114,8 @@
         return sometag.split(' ').join('_');
     }
 
-    function displayBook(elementone){
+    function displayBook(elementone, klass){
+        if(!klass){ klass = "material"; }
         // Generate the HTML block to display a book entry and return it as a string.
         //author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
         author = elementone.getElementsByTagName("author");
@@ -119,7 +136,7 @@
                     tag_list += tagify(taggen[i].childNodes[0].nodeValue) + ' ';
             };
 
-            txt += '<p class="material ' + tag_list + '"><b>' + author[0].childNodes[0].nodeValue + ', <i>' + title[0].childNodes[0].nodeValue + '</i></b><br />';
+            txt += '<p class="'+ klass +' ' + tag_list + '"><b>' + author[0].childNodes[0].nodeValue + ', <i>' + title[0].childNodes[0].nodeValue + '</i></b><br />';
             dotMarker = false;
             if ( bought.length > 0){
                 txt += 'Bought: ' + bought[0].childNodes[0].nodeValue;
@@ -154,10 +171,10 @@
         return txt;
     };
 
-    function displayOhter(i){
+    function displayOther(i){
         // Generate the HTML block to display an entry that's not a book and return it as a string.
         // pass
-        return '';
+        return displayBook(i, 'other');
     }
 
     function generateTagLinks(taglist){
@@ -189,25 +206,34 @@
                 txtbooks += displayBook(books[i]);
             };
             for (var i = 0; i < others.length; i++) {
-                txtothers += displayBook(others[i]);
+                txtothers += displayOther(others[i]);
             };
             document.getElementById("books_here").innerHTML=txtbooks;
             document.getElementById("material_here").innerHTML=txtothers;
-            books = null;
+            //books = null;
             others = null;
 
             // Remove Duplicates
             uniqueNames = [];
+            var count = {};
             $.each(tags, function(i, el){
-            if($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
+            if($.inArray(el, uniqueNames) === -1){ uniqueNames.push(el); count[el] = 1; }
+            else{ count[el] = count[el] + 1; }
             });
 
             tags = uniqueNames;
             tags.sort();
             tag_links = '';
+            
+            //var current_letter = tags[0][0];
             for (var i = 0; i < tags.length; i++) {
-                tag_links += '<a href="#" class="buttonB ' + tagify(tags[i]) + '" />' + tags[i] + '</a>';
-                if (i != (tags.length - 1)) { tag_links += " &middot; "}
+                /*
+                if(tags[i][0] != current_letter){
+                    current_letter = tags[i][0];
+                    tag_links += "<br>";
+                }*/
+                tag_links += '<a href="#" class="buttonB ' + tagify(tags[i]) + '" />' + tags[i] + ' ('+ count[tags[i]] +')</a>';
+                if (i != (tags.length - 1)) { tag_links += " <br> "}
             };
             document.getElementById("taglinks_here").innerHTML=tag_links;
 
@@ -217,6 +243,26 @@
             $("#ShowNotesLinks").click(function() { $("a.noteslinks").fadeIn(); });
             $("a.buttonBall").click(function(){ show_all(); });
             $("a.buttonB").click(function(){ show_hide_tags($(this).attr('class').split(/\s+/)[1]); });
+            
+            // Statistics
+            
+            var statistics = [];
+            var labels = ["Total number of books", "Books per month"];
+            
+            var total_books = books.length;
+            statistics.push(total_books);
+            
+            var d = new Date();
+            var books_per_month = (total_books/( (d.getFullYear() - 2013)*12 + 4 + d.getMonth() + 1  )).toFixed(2);
+            statistics.push(books_per_month);
+            
+            var txt = "";
+            
+            $.each(statistics, function(idx, itm){
+                txt += labels[idx] + ": " + statistics[idx] + "<br>";
+            });
+            
+            document.getElementById("statistics_here").innerHTML=txt;
         });
     </script>
 
