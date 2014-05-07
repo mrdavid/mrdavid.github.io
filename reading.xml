@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <books>
+<book>
+  <author>Dirk Müller</author>
+  <title>Crashkurs</title>
+  <tag>Finances</tag>
+  <finnished>2014.05.08</finnished>
+</book>
 <book>
   <author>Knut Schmidt-Nielsen</author>
   <title>How animals work</title>
@@ -140,14 +144,12 @@
   <finnished>2013.06.18</finnished>
   <tag>Fiction</tag>
  </book>
-
  <book>
    <author>Ken Schwaber, Mike Beedle</author>
    <title>Agile Software Development with Scrum</title>
    <finnished>2013.05.15</finnished>
    <tag>Programming</tag>
  </book>
-
  <book>
     <author>Susan Cain</author>
     <title>Quiet: The Power of Introverts in a World that can't stop talking</title>
@@ -166,13 +168,6 @@
     <finnished>2013.03.05</finnished>
     <tag>Fiction</tag>
 </book>
- <!-- book>
-    <author>Eric Rath and Stephanie Assmann (Eds.)</author>
-    <title>Japanese Foodways - Past &amp; Present</title>
-    <started>2013.02.14</started>
-    <tag>Japan</tag>
-</book -->
-
  <book>
     <author>Marry White</author>
     <title>Coffee Life in Japan</title>
@@ -182,7 +177,6 @@
     <amazon>http://www.amazon.de/gp/product/B007I1UXYC/ref=as_li_ss_il?ie=UTF8&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007I1UXYC&amp;linkCode=as2&amp;tag=daviddavid-21</amazon>
     <notes>reading/white_marry-coffee.html</notes>
 </book>
-
  <book>
     <author>Yoshio Sugimoto</author>
     <title>An Introduction to Japanese Society</title>
@@ -192,14 +186,6 @@
     <tag>Japan</tag>
     <tag>Society</tag>
     <amazon>http://www.amazon.de/gp/product/0521705193/ref=as_li_ss_tl?ie=UTF8&amp;camp=1638&amp;creative=19454&amp;creativeASIN=0521705193&amp;linkCode=as2&amp;tag=daviddavid-21</amazon>
-</book>
-<book>
-    <author>ヤマザキ　マリ</author>
-    <title>テルマエ・ロマエ ①</title>
-    <tag>Japanese</tag>
-    <tag>Fiction</tag>
-    <finnished>2013.01.15</finnished>
-    <link>http://en.wikipedia.org/wiki/Thermae_Romae</link>
 </book>
  <book>
     <author>Lu Xun</author>
@@ -370,6 +356,14 @@
     <link>http://www.nature.com/nature/journal/v448/n7151/full/nature06079.html</link>
     <started>2013.01.20</started>
     <finnished>2013.01.21</finnished>
+</other>
+<other>
+    <author>ヤマザキ　マリ</author>
+    <title>テルマエ・ロマエ ①</title>
+    <tag>Japanese</tag>
+    <tag>Fiction</tag>
+    <finnished>2013.01.15</finnished>
+    <link>http://en.wikipedia.org/wiki/Thermae_Romae</link>
 </other>
 <other>
     <author>Andrew W. Lo, Mark T. Mueller</author>
