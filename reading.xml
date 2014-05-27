@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>Friedrich Dürrenmatt</author>
+  <title>Der Richter und sein Henker</title>
+  <tag>Fiction</tag>
+  <finnished>2014.05.26</finnished>
+</book>
+<book>
   <author>Dirk Müller</author>
   <title>Crashkurs</title>
   <tag>Finances</tag>
