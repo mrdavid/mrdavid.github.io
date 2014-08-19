@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+  <author>William Ury</author>
+  <title>The Power of a Positive No</title>
+  <tag>Negotiation</tag>
+  <finnished>2014.08.18</finnished>
+</book>
+<book>
   <author>Joseph Conrad</author>
   <title>Heart of Darkness</title>
   <tag>Fiction</tag>
