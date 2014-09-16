@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+    <author>William Ury, Roger Fisher</author>
+    <title>Getting to Yes</title>
+    <tag>Negotiation</tag>
+    <finnished>2014.09.15</finnished>
+</book>
+<book>
   <author>William Ury</author>
   <title>The Power of a Positive No</title>
   <tag>Negotiation</tag>
