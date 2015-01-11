@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+    <author>Vera John-Steiner</author>
+    <title>Notebooks of the Mind</title>
+    <tag>Psychology</tag>
+    <tag>Thinking</tag>
+    <finnished>2015.01.10</finnished>
+</book>
+<book>
     <author>Maryam Hussain</author>
     <title>Corporate Fraud</title>
     <tag>Fraud</tag>
