@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+    <author>Various</author>
+    <title>Harvard Business Review - 10 Must Reads on Leadership</title>
+    <tag>Leadership</tag>
+    <tag>Business</tag>
+    <finnished>2015.03.08</finnished>
+</book>
+<book>
     <author>Vera John-Steiner</author>
     <title>Notebooks of the Mind</title>
     <tag>Psychology</tag>
