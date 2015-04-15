@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+    <book>
+    <author>Peter Thiel</author>
+    <title>Zero to One</title>
+    <tag>Startups</tag>
+    <tag>Business</tag>
+    <finnished>2015.04.15</finnished>
+</book>
 <book>
     <author>Various</author>
     <title>Harvard Business Review - 10 Must Reads on Leadership</title>
