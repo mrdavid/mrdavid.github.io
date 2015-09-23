@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+<book>
+    <author>Stephen Valdez</author>
+    <title>An Introduction to Global Financial Markets</title>
+    <tag>Finance</tag>
+    <finnished>2015.09.23</finnished>
+</book>
     <book>
     <author>Jonathan D. Spence</author>
     <title>The Search for Modern China</title>
@@ -66,7 +72,7 @@
 <book>
   <author>Dirk Müller</author>
   <title>Crashkurs</title>
-  <tag>Finances</tag>
+  <tag>Finance</tag>
   <finnished>2014.05.08</finnished>
 </book>
 <book>
@@ -175,7 +181,7 @@
   <title>Rich dad, poor dad</title>
   <finnished>2013.07.30</finnished>
   <notes>reading/richdadpoordad.html</notes>
-  <tag>Finances</tag>
+  <tag>Finance</tag>
  </book>
     <book>
   <author>Dale Carnegie</author>
