@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
+        <book>
+    <author>John A. Tracy</author>
+    <title>Accounting for Dummies</title>
+    <tag>Business</tag>
+    <finnished>2015.11.30</finnished>
+</book>
     <book>
     <author>Jonathan D. Spence</author>
     <title>The Search for Modern China</title>
