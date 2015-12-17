@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
-        <book>
+<book>
+    <author>David Allen</author>
+    <title>Getting things done</title>
+    <tag>Organization</tag>
+    <finnished>2015.12.17</finnished>
+</book>
+<book>
     <author>John A. Tracy</author>
     <title>Accounting for Dummies</title>
     <tag>Business</tag>
