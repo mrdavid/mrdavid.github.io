@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
+    <author>Walter W. Sawyer</author>
+    <title>Prelude to mathematics</title>
+    <tag>Mathematics</tag>
+    <finnished>2015.12.27</finnished>
+</book>
+<book>
     <author>David Allen</author>
     <title>Getting things done</title>
     <tag>Organization</tag>
