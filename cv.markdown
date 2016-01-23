@@ -39,7 +39,7 @@ Technische Universität Darmstadt (Darmstadt, DE)
 * English (business fluent, TOEFL iBT 120/120)
 * German (native)
 * French (advanced reading & listening skill)
-* Mandarin Chinese (beginner
+* Mandarin Chinese (beginner)
 
 ## Pubications
 
@@ -47,4 +47,4 @@ David M. Röhrscheid, Georg Wolschin:
 *Centrality dependence of charged-hadron pseudorapidity
 distributions in PbPb collisions at energies available at the CERN Large Hadron Collider in the
 relativistic diffusion model*,
-Phys. Rev. C 86, 024902 (2012
+Phys. Rev. C 86, 024902 (2012)
