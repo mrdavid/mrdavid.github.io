@@ -19,6 +19,11 @@ EY (Tokyo, JP)
 Web Developer  
 Newson (Tokyo, JP)
 
+## Certifications and Coursework
+
+2016/02  
+*Machine Learning*, Stanford University, Coursera.org   https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK
+
 ## Education
 
 2009/09 - 2012/05  
