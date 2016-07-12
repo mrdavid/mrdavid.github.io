@@ -4,7 +4,10 @@ title: Making cyanotypes
 categories:
 - blog
 - art
+- making
 ---
+
+[![https://www.flickr.com/photos/_daviddavid_/9435852276/](https://farm4.staticflickr.com/3751/9435852276_6eebe69567_d.jpg)](https://www.flickr.com/photos/_daviddavid_/9435852276/)
 
 Cyanotype is a photographic printing process that was discovered in 1842.
 The process produces images in a fascinating hue of deep blue. Once one has
@@ -62,6 +65,8 @@ hours.
 The last step is not necessarily needed and I do not have long-time experience with preserving the
 cyanotype prints, but I usually spray the image with a water-repellent spray to preserve it.
 
+[![https://www.flickr.com/photos/_daviddavid_/13845448775/](https://farm8.staticflickr.com/7049/13845448775_24879d6a10_d.jpg)](https://www.flickr.com/photos/_daviddavid_/13845448775/)
+
 ### Tools
 
 These are the tools you need. To produce a negative:
@@ -92,3 +97,59 @@ And possibly to preserve:
 * Preservant spray from the art store
 
 ### The steps in detail
+
+##### Making a negative
+
+The negative is produced by taking a digital picture, turning it into
+a grayscale picture and subsequently inverting its colors. This can be done with
+most modern image manipulation programs.
+
+The inverse grayscale picture is then printed onto a transparency. Depending on the type of
+printer you have, you need a different type. With inkjet printers the transparencies tend to get
+damaged by contact with water and one should make sure that the sensitized paper is thoroughly dried
+before bringing the negative and the paper together.
+
+Transparencies are relatively cheap and can be bought at most office supply stores. If you are in
+Tokyo, simply visit one of the many ヨドバシカメラ stores.
+
+##### Preparing the paper
+
+This step starts with choosing the right paper. The paper will have a great influence
+on the appearance and contrast of the final print. It must be strong enough to
+withstand extensive washing and soaking with water and must not shrivel up when dried.
+
+I prefer 300g/m<sup>2</sup> cold pressed water color paper from a local art store (if you are in Tokyo: 世界堂 in 新宿), but you do not necessarily need paper this strong.
+I usually have some stronger cheap drawing paper around as well. These will change form in the printing process
+but are strong enough to not tear and are thus well suited for making test prints.
+
+In the next step, a mixture of equal parts (in volume) of a solution of 25g Ferric ammonium citrate in 100ml water and 10g Potassium ferricyanide in 100ml water is applied to the paper with a brush.
+I have found that making the layer very thin instead of being generous with the solution gives the best results.
+
+##### Exposure
+
+For the exposure, the negative needs to be pressed firmly against the sensitized paper
+while exposing the surface to light. This is most easily achieved by placing the paper and negative on a flat
+surface and putting a glass plate on top. The glass plate is fastened with clamps or rubber bands to keep
+everything firmly in place.
+
+[![https://www.flickr.com/photos/_daviddavid_/14098846811/](https://farm3.staticflickr.com/2903/14098846811_f1ed26337a_d.jpg)](https://www.flickr.com/photos/_daviddavid_/14098846811/)
+
+##### Development
+
+Developing the image simply consists of washing out the unexposed chemical with water.
+This has to be done rather thoroughly as it tends to enter the paper quite deeply.
+
+I usually put the exposed paper under running water for a few minutes to wash out most
+of the chemical from the surface layer. For your first few prints you try to wash out all of the
+chemical with running water to get a feel for the process and to see how the image changes
+as the chemical washes out.
+
+After most of the color is washed out, put the image in a tray filled with water to get out
+the remaining chemical. You should agitate the tray a few time and change the water every so often.
+I usually leave the prints in the tray for up to thirty minutes.
+
+Before hanging the prints out to dry, you can add a little Hydrogen Peroxide to the tray.
+This causes the color in the print to darken, giving a deeper color and slightly better contrast
+in some cases.
+
+[![https://www.flickr.com/photos/_daviddavid_/14098975252/](https://farm6.staticflickr.com/5555/14098975252_d2ff5a8687_d.jpg)](https://www.flickr.com/photos/_daviddavid_/14098975252/)
