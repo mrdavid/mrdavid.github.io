@@ -1,3 +1,7 @@
+---
+layout: default
+title:  "CV"
+---
 David Maria Röhrscheid  
 mail: david.roehrscheid@gmail.com  
 tel: +81 (0)80 9442 2604  
@@ -22,7 +26,8 @@ Newson (Tokyo, JP)
 ## Certifications and Coursework
 
 2016/02  
-*Machine Learning*, Stanford University, Coursera.org   https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK
+*Machine Learning*, Stanford University, Coursera.org  
+[https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK ](https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK)  
 
 ## Education
 
@@ -46,10 +51,11 @@ Technische Universität Darmstadt (Darmstadt, DE)
 * French (advanced reading & listening skill)
 * Mandarin Chinese (beginner)
 
-## Pubications
+## Publications
 
-David M. Röhrscheid, Georg Wolschin:
+David M. Röhrscheid, Georg Wolschin: 
 *Centrality dependence of charged-hadron pseudorapidity
 distributions in PbPb collisions at energies available at the CERN Large Hadron Collider in the
-relativistic diffusion model*,
-Phys. Rev. C 86, 024902 (2012)
+relativistic diffusion model*  
+Phys. Rev. C 86, 024902 (2012)  
+[http://arxiv.org/abs/1207.6517](http://arxiv.org/abs/1207.6517)
