@@ -12,7 +12,7 @@ PDF and more details available upon request.
 ## Professional experience
 
 2016/01 - current  
-Senior Analyst, Forensic Data Analytics  
+Senior Analyst, Data Analytics  
 Deloitte (Tokyo, JP)
 
 2014/07 - 2015/12  
