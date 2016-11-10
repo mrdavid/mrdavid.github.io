@@ -32,7 +32,7 @@ Newson (Tokyo, JP)
 ## Community Involvement
 
 2016/09  
-Staff Member at [Pycon JP 2016](https://pycon.jp/2016/)
+Staff Member at [Pycon JP 2016](https://pycon.jp/2016/ja/about/staff-list/)
 
 ## Education
 
