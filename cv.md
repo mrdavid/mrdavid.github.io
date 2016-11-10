@@ -7,8 +7,6 @@ mail: david.roehrscheid@gmail.com
 tel: +81 (0)80 9442 2604  
 net: davidr.co
 
-Details available upon request.
-
 ## Professional experience
 
 2016/01 - current  
