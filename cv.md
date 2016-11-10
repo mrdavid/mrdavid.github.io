@@ -29,6 +29,11 @@ Newson (Tokyo, JP)
 *Machine Learning*, Stanford University, Coursera.org  
 [https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK ](https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK)  
 
+## Community Involvement
+
+2016/09  
+Staff Member at [Pycon JP 2016](https://pycon.jp/2016/)
+
 ## Education
 
 2009/09 - 2012/05  
@@ -53,7 +58,7 @@ Technische Universität Darmstadt (Darmstadt, DE)
 
 ## Publications
 
-David M. Röhrscheid, Georg Wolschin: 
+David M. Röhrscheid, Georg Wolschin:
 *Centrality dependence of charged-hadron pseudorapidity
 distributions in PbPb collisions at energies available at the CERN Large Hadron Collider in the
 relativistic diffusion model*  

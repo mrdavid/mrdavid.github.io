@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making cyanotypes
-categories:
+tags:
 - blog
 - art
 - making
