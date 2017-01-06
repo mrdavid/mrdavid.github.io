@@ -1,18 +1,23 @@
 ---
 layout: post
-title: Making cyanotypes
+title:  "Making Cyanotypes"
+date:   2016-07-11 15:07:19
+categories: [making]
+comments: true
 tags:
-- blog
-- art
-- making
+  - Making
+  - art
+  - photography
 ---
-
-[![https://www.flickr.com/photos/_daviddavid_/9435852276/](https://farm4.staticflickr.com/3751/9435852276_6eebe69567_d.jpg)](https://www.flickr.com/photos/_daviddavid_/9435852276/)
 
 Cyanotype is a photographic printing process that was discovered in 1842.
 The process produces images in a fascinating hue of deep blue. Once one has
 aquired the basic chemical ingredients and a few simple tools, they are quite
 easily produced at home, without the need for a proper darkroom.
+
+<!--more-->
+
+[![https://www.flickr.com/photos/_daviddavid_/9435852276/](https://farm4.staticflickr.com/3751/9435852276_6eebe69567_d.jpg)](https://www.flickr.com/photos/_daviddavid_/9435852276/)
 
 I really wanted to make my own photographic prints at home. Since my tiny
 Tokyo apartment does not offer enough space for a darkroom, this seemed like a good way
