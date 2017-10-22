@@ -23,6 +23,18 @@ Newson (Tokyo, JP)
 
 ## Certifications and Coursework
 
+2017/10  
+*Structuring Machine Learning Projects*, Coursera.org  
+[https://www.coursera.org/account/accomplishments/verify/6FMVJZQWD8DG ](https://www.coursera.org/account/accomplishments/verify/6FMVJZQWD8DG)
+
+2017/10  
+*Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization*, Coursera.org  
+[https://www.coursera.org/account/accomplishments/verify/S4XXQTEY97VK ](https://www.coursera.org/account/accomplishments/verify/S4XXQTEY97VK)
+
+2017/10  
+*Neural Networks and Deep Learning*, Coursera.org  
+[https://www.coursera.org/account/accomplishments/records/P46WY36GP6QM ](https://www.coursera.org/account/accomplishments/records/P46WY36GP6QM)
+
 2016/02  
 *Machine Learning*, Stanford University, Coursera.org  
 [https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK ](https://www.coursera.org/account/accomplishments/records/D9U5924KMMPK)  
