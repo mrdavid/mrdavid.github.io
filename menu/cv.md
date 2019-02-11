@@ -10,7 +10,8 @@ net: davidr.co
 ## Professional experience
 
 2016/01 - current  
-Senior Analyst, Data Analytics  
+Vice President, Data Analytics (2018/08-current)  
+Senior Analyst, Data Analytics (2016/01-2018/07)  
 Deloitte (Tokyo, JP)
 
 2014/07 - 2015/12  
