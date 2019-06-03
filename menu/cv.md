@@ -9,7 +9,11 @@ net: davidr.co
 
 ## Professional experience
 
-2016/01 - current  
+2019/03 - current  
+Director & Original Co-Founder   
+Yuzu Kyodai (Tokyo, JP)
+
+2016/01 - 2019/02  
 Vice President, Data Analytics (2018/08-current)  
 Senior Analyst, Data Analytics (2016/01-2018/07)  
 Deloitte (Tokyo, JP)
