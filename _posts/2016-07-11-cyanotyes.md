@@ -2,9 +2,10 @@
 layout: post
 title:  "Making Cyanotypes"
 date:   2016-07-11 15:07:19
-categories: making
+categories: [Art]
 comments: true
-tags: [Making, art, photography]
+published: true
+tags: [Art]
 ---
 
 Cyanotype is a photographic printing process that was discovered in 1842.

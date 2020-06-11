@@ -8,14 +8,15 @@ github:
   url:               #"https://lenpaul.github.io/Lagrange"
 author:
   name:              "David M. Röhrscheid"
-  email:             "david.roehrscheid@gmail.com"
   twitter:           "daviddavid"
   instagram:         "mrdaviddavid"
   github:            "mrdavid"
 #  facebook:          "Le.Paul.94"
 #  linkedin:          "lenpaul"
 navigation:
-- title: CV
+- title: Blog
+  url: /
+- title: About
   url: /menu/cv
 - title: Book Log
   url: https://github.com/mrdavid/Buchnotizen/blob/master/README.md
@@ -30,3 +31,4 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                [jekyll-paginate]
+plugins:                [jekyll-paginate]

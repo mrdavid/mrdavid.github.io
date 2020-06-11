@@ -54,6 +54,11 @@ img {
   border-radius: 5px;
 }
 
+img.portrait {
+  width: 39%;
+  float:right;
+}
+
 /*
   Blockquote
 */
