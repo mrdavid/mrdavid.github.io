@@ -11,6 +11,3 @@ You can reach me via email at *david @ this domain* or through twitter, instagra
 
 I usually keep an updated CV on [LinkedIn](https://www.linkedin.com/in/david-maria-r%C3%B6hrscheid-62919659/).
 
-## Other Projects
-
-I run [opendatajapan.com](https://www.opendatajapan.com/), a site with curated open data about Japan. I release music under the alias [*millirem*](https://soundcloud.com/millirem).
