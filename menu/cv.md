@@ -11,3 +11,4 @@ You can reach me via email at *david @ this domain* or through twitter, instagra
 
 I usually keep an updated CV on [LinkedIn](https://www.linkedin.com/in/david-maria-r%C3%B6hrscheid-62919659/).
 
+When I can make the time, I work on [Japan Open Data](http://www.japanopendata.com) and [Japan Digital Agency Watch](https://www.japandigital.agency/).
