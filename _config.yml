@@ -9,10 +9,11 @@ github:
 author:
   name:              "David M. Röhrscheid"
   twitter:           "daviddavid"
-  instagram:         "mrdaviddavid"
+#  instagram:         "mrdaviddavid"
   github:            "mrdavid"
 #  facebook:          "Le.Paul.94"
-#  linkedin:          "lenpaul"
+  linkedin:          "david-maria-röhrscheid-62919659"
+  twitch:            "millirem"
 navigation:
 - title: Blog
   url: /
