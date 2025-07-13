@@ -1,20 +1,15 @@
+theme: minima
+
 # Site Settings
 title:               David M. Röhrscheid
 tagline:             blog
 description:
-baseurl:            #"/"
-url:                #"davidr.co"
-github:
-  url:               #"https://lenpaul.github.io/Lagrange"
 author:
   name:              "David M. Röhrscheid"
   twitter:           "daviddavid"
-#  instagram:         "mrdaviddavid"
   github:            "mrdavid"
-#  facebook:          "Le.Paul.94"
   linkedin:          "david-maria-röhrscheid-62919659"
-  youtube:            "DavidMariaRoehrscheid"
-  #  twitch:            "millirem"
+  #youtube:            "DavidMariaRoehrscheid"
 navigation:
 - title: Blog
   url: /
@@ -22,15 +17,8 @@ navigation:
   url: /menu/cv
 - title: Book Log
   url: https://github.com/mrdavid/Buchnotizen/blob/master/README.md
-#- title: Contact
-#  url: /contact
 
 paginate:            5
-disqus:              #"your-disqus"
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-gems:                [jekyll-paginate]
-plugins:                [jekyll-paginate]
+minima:
+  skin: solarized
