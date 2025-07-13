@@ -3,6 +3,9 @@ layout: default
 title:  "About"
 ---
 Hi, I'm David and I run this blog.
+
+Check out [Buchnotizen](https://github.com/mrdavid/Buchnotizen) for a list of all books I read.
+
 ![Portrait](/images/David_Rohrscheid_portrait.png){: class="portrait"}
 
 I currently live in Tokyo with my wife and two daughters.
