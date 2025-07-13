@@ -1,4 +1,4 @@
-remote-theme: jekyll/minima
+theme: minima
 
 # Site Settings
 title:               davidr's blog
