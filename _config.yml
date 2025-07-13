@@ -1,7 +1,9 @@
 theme: minima
 
 # Site Settings
-title:               davidr's blog
+title: davidr's blog
+author:
+  name: David M. Röhrscheid
 
 paginate:            5
 
@@ -14,5 +16,5 @@ minima:
   - url: https://jp.linkedin.com/in/david-maria-r%25C3%25B6hrscheid-62919659
     title: LinkedIn
     icon: linkedin
-
+  hide_site_feed_link: true
 
