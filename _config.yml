@@ -1,24 +1,23 @@
 theme: minima
 
 # Site Settings
-title:               David M. Röhrscheid
-tagline:             blog
+title:               davidr's blog
 description:
 author:
   name:              "David M. Röhrscheid"
-  twitter:           "daviddavid"
-  github:            "mrdavid"
-  linkedin:          "david-maria-röhrscheid-62919659"
-  #youtube:            "DavidMariaRoehrscheid"
-navigation:
-- title: Blog
-  url: /
-- title: About
-  url: /menu/cv
-- title: Book Log
-  url: https://github.com/mrdavid/Buchnotizen/blob/master/README.md
 
 paginate:            5
 
 minima:
   skin: solarized
+  social_links: 
+    twitter:
+      url: https://x.com/daviddavid
+      title: x.com/daviddavid
+      icon: twitter
+    linkedin:
+      url: https://jp.linkedin.com/in/david-maria-r%25C3%25B6hrscheid-62919659
+      title: LinkedIn
+      icon: linkedin
+
+
