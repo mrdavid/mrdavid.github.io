@@ -2,8 +2,7 @@ theme: minima
 
 # Site Settings
 title: davidr's blog
-author:
-  name: David M. Röhrscheid
+author: David M. Röhrscheid
 
 paginate:            5
 
